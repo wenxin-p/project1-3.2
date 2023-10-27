@@ -7,6 +7,7 @@ https://bc.rocketacademy.co/1-frontend/1.p-frontend-app
 This project was created using with Vitejs. In the project directory, please run the following commands:
 
 `npm install`
+
 `npm run dev`
 
 The second command will run the app
