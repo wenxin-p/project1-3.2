@@ -1,18 +1,12 @@
-import logo from "/logo.png";
 import "./App.css";
+import CalendarFunc from "./components/calendarfunc";
 
 function App() {
   return (
     <>
-      <div>
-        <img src={logo} className="App-logo" alt="logo" />
-      </div>
-      <h1>Project 1</h1>
-      <div className="card">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
+      <h1>Hello User.</h1>
+      <h3>Start by selecting a date for your event.</h3>
+      <CalendarFunc></CalendarFunc>
     </>
   );
 }
